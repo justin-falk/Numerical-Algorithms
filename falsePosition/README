@@ -1,1 +1,24 @@
+# False Position
 
+This function uses the false position method to approximate the roots of input functions around a certain set of initial points.
+
+## Usage
+
+Inputs:
+
+* func -Function that the users wishes to approximate the root of
+* xl -Lower value of where the root search begins
+* xu -The upper value of where the root search stops
+* es -Desired error of the approximation
+* iter -Number of iterations performed
+
+Outputs:
+
+* root -Root approximation
+* fx -Function evaluated at the root
+* ea -Approximate relative error
+* iter -Number of iteeration performed
+
+## Issues
+
+Does not converge to a root for some functions and initial values
