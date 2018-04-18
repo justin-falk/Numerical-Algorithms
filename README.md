@@ -21,13 +21,13 @@ Outputs:
 * root -Root approximation
 * fx   -Function evaluated at the root
 * ea   -Approximate relative error
-* iter -NUmber of iteeration performed
+* iter -Number of iteeration performed
 
 ## luFactor.m
 This function find the lu-factorization of an input matrix along with the associated pivot matrix.
 
 Inputs:
-* a  -square matrix  for lu-decomposition
+* a  -Square matrix  for lu-decomposition
 
 Outputs:
 * l  -Lower triangular matrix of a
@@ -38,8 +38,8 @@ Outputs:
 This function takes two input vectors and approximates the intergral using simpsons method and trapezoidal method if necessary.
 
 Inputs:
-* x  -matrix of x values
-* y  -matrix of y values
+* x  -Matrix of x values
+* y  -Matrix of y values
 
 Outputs:
-* I  -intergral approximation
+* I  -Intergral approximation
