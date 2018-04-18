@@ -1,1 +1,19 @@
+---LU-Factor---
 
+This function find the lu-factorization of an input matrix along with the associated pivot matrix.
+
+---Usage---
+
+Inputs:
+
+* a -Square matrix for lu-decomposition
+
+Outputs:
+
+* l -Lower triangular matrix of a
+* u -Upper triangular matrix of a
+* p -Pivot matrix of a
+
+---Issues---
+
+L is not an accurate lower triangluar matrix. The P matrix does not update correctly. Fails with larger matrixes.
