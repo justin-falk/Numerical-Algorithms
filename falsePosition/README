@@ -1,8 +1,8 @@
-# False Position
+---False Position---
 
 This function uses the false position method to approximate the roots of input functions around a certain set of initial points.
 
-## Usage
+---Usage---
 
 Inputs:
 
@@ -19,6 +19,6 @@ Outputs:
 * ea -Approximate relative error
 * iter -Number of iteeration performed
 
-## Issues
+---Issues---
 
 Does not converge to a root for some functions and initial values
