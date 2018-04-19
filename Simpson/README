@@ -15,4 +15,5 @@ I -Intergral approximation
 
 ---Issues---
 
-You can not input a function and limits of intergration, only a table of values from a function. The values for each table must also be equally spaced for the function to run.
+You can not input a function and limits of intergration, only a table of values from a function. 
+The values for each table must also be equally spaced for the function to run.
